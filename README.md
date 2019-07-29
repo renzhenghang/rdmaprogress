@@ -24,3 +24,11 @@
 - 熟悉restbed的API
 - 初步了解分配算法、TAG 模型
 - parfait agent的结构和实现思路
+
+#### 第三周（7.22 - 7.28）
+
+- 专利文件修改
+- agent增加资源初始化功能
+  - 使用libudev获得pci设备地址信息
+  - pci设备地址和设备名存在HostInfo结构体中
+- brain的资源分配算法和与agent交互的接口
